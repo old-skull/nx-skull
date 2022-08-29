@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "elixir": "libs/elixir",
+    "elixir-e2e": "apps/elixir-e2e"
+  }
 }
