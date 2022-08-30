@@ -1,11 +1,21 @@
-# elixir
+# @nx-skull/elixir
 
-This library was generated with [Nx](https://nx.dev).
+Support for Elixir Mix-based projects
 
-## Building
+## Prerequisite
 
-Run `nx build elixir` to build the library.
+1. Nx workspace
 
-## Running unit tests
+## Installation
 
-Run `nx test elixir` to execute the unit tests via [Jest](https://jestjs.io).
+### Install plugin
+
+```
+npm install @nx-skull/elixir --save-dev
+```
+
+### Generate app
+
+```
+nx g @nx-skull/elixir:app app
+```
