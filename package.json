@@ -1,13 +1,18 @@
 {
   "name": "nx-skull",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
+  "author": "TicTak21",
+  "description": "A collection of Nx plugins for different languages and tools.",
+  "repository": "https://github.com/old-skull/nx-skull",
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test"
   },
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@nrwl/cli": "14.5.10",
     "@nrwl/devkit": "14.5.10",
