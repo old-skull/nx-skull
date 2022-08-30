@@ -3,12 +3,12 @@
   "sourceRoot": "libs/elixir/src",
   "projectType": "library",
   "targets": {
-    "mix": {
+    "app": {
       "executor": "nx:run-commands",
       "options": {
         "commands": [
           {
-            "command": "mix new ex"
+            "command": "mix new"
           }
         ],
         "cwd": "apps"
