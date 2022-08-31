@@ -3,17 +3,6 @@
   "sourceRoot": "libs/elixir/src",
   "projectType": "library",
   "targets": {
-    "app": {
-      "executor": "nx:run-commands",
-      "options": {
-        "commands": [
-          {
-            "command": "mix new"
-          }
-        ],
-        "cwd": "apps"
-      }
-    },
     "build": {
       "executor": "@nrwl/js:tsc",
       "outputs": ["{options.outputPath}"],
