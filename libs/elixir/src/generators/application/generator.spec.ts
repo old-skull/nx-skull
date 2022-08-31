@@ -1,12 +1,12 @@
+import { readProjectConfiguration, Tree } from '@nrwl/devkit';
 import { createTreeWithEmptyWorkspace } from '@nrwl/devkit/testing';
-import { Tree, readProjectConfiguration } from '@nrwl/devkit';
 
-import generator from './generator';
-import { ElixirGeneratorSchema } from './schema';
+import { applicationGenerator as generator } from './generator';
+import { ApplicationGeneratorSchema } from './schema';
 
-describe('elixir generator', () => {
+describe('app generator', () => {
   let appTree: Tree;
-  const options: ElixirGeneratorSchema = { name: 'test' };
+  const options: ApplicationGeneratorSchema = { name: 'test' };
 
   beforeEach(() => {
     appTree = createTreeWithEmptyWorkspace();

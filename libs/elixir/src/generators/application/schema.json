@@ -23,6 +23,15 @@
       "type": "string",
       "description": "A directory where the project is placed",
       "alias": "d"
+    },
+    "module": {
+      "type": "string",
+      "description": "Main module name",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      },
+      "x-prompt": "What module name would you like to use?"
     }
   },
   "required": ["name"]
