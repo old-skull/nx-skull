@@ -26,11 +26,6 @@
             "input": "./libs/elixir",
             "glob": "generators.json",
             "output": "."
-          },
-          {
-            "input": "./libs/elixir",
-            "glob": "executors.json",
-            "output": "."
           }
         ]
       }
@@ -42,7 +37,6 @@
         "lintFilePatterns": [
           "libs/elixir/**/*.ts",
           "libs/elixir/generators.json",
-          "libs/elixir/executors.json",
           "libs/elixir/package.json"
         ]
       }
