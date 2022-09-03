@@ -4,9 +4,9 @@ A collection of Nx plugins.
 
 ## Plugins
 
-| Plugin             | Description                           |
-| ------------------ | ------------------------------------- |
-| `@nx-skull/elixir` | Support for Elixir Mix-based projects |
+| Plugin             | Description                           | Links                                                                                                                         | Status |
+| ------------------ | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------ |
+| `@nx-skull/elixir` | Support for Elixir Mix-based projects | [src](https://github.com/old-skull/nx-skull/tree/master/libs/elixir) \| [npm](https://www.npmjs.com/package/@nx-skull/elixir) | WIP🏗   |
 
 ## Links
 

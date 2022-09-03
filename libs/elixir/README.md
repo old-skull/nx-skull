@@ -1,10 +1,10 @@
 # @nx-skull/elixir
 
-Support for Elixir Mix-based projects
+Support for Elixir(Mix-based) projects
 
 ## Prerequisite
 
-1. Nx workspace
+Nx workspace
 
 ## Installation
 
@@ -14,8 +14,8 @@ Support for Elixir Mix-based projects
 npm install @nx-skull/elixir --save-dev
 ```
 
-### Generate app
+### Generate application
 
 ```
-nx g @nx-skull/elixir:app app
+nx g @nx-skull/elixir:app
 ```
