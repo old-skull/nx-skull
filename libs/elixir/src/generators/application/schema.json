@@ -29,7 +29,7 @@
       "description": "Main module name",
       "$default": {
         "$source": "argv",
-        "index": 0
+        "index": 1
       },
       "x-prompt": "What module name would you like to use?"
     }
